@@ -1,0 +1,6 @@
+body { width: 250px; font-family: sans-serif; padding: 15px; }
+.container { display: flex; flex-direction: column; gap: 10px; }
+input { padding: 8px; border: 1px solid #ccc; border-radius: 4px; }
+button { padding: 10px; background: #2563eb; color: white; border: none; cursor: pointer; border-radius: 4px; }
+button.secondary { background: #64748b; margin-top: 5px; }
+#status { font-size: 0.8rem; color: green; text-align: center; }

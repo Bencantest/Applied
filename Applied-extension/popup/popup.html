@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Track New Job</h2>
+    <input type="text" id="company" placeholder="Company Name">
+    <input type="text" id="role" placeholder="Job Role/Title">
+    <button id="saveBtn">Log Application</button>
+    <hr>
+    <button id="viewStats" class="secondary">View My Stats</button>
+    <p id="status"></p>
+	<select id="statusSelect">
+	  <option value="Applied">Applied</option>
+	  <option value="Interviewing">Interviewing</option>
+	  <option value="Offered">Offered</option>
+	  <option value="Rejected">Rejected</option>
+	</select>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

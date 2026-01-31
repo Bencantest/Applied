@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Applied",
+  "version": "1.0",
+  "description": "Track job applications and stats.",
+  "permissions": ["storage"],
+  "action": {
+    "default_popup": "popup/popup.html"
+  },
+  "background": {
+    "service_worker": "scripts/background.js"
+  }
+}
